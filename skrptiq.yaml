@@ -1,0 +1,41 @@
+# --- Identity ---
+name: "api-weather-pipeline"
+display_name: "API Weather Pipeline"
+description: "Demonstrates schema-driven API integration: reads an OpenWeatherMap API schema, composes requests, and generates a weather briefing"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+
+# --- Discovery (Hub) ---
+category: "developer"
+tags:
+  - "api-integration"
+  - "example"
+  - "weather"
+  - "rest-api"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+    - "weather-api"
+  permissions:
+    - "network:api.openweathermap.org"
+  data_handling: []
+
+# --- Contents ---
+contents:
+  skills: 3
+  prompts: 3
+  workflows: 1
+  services: 2
+  sources: 1
+  documents: 0
+  assets: 0
+  total: 10
