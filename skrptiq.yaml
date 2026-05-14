@@ -2,8 +2,8 @@
 name: "api-weather-pipeline"
 display_name: "API Weather Pipeline"
 description: "Demonstrates schema-driven API integration: reads an OpenWeatherMap API schema, composes requests, and generates a weather briefing"
-version: "1.0.0"
-engine: ">=1.0.0"
+version: "1.0.1"
+engine: ">=0.1.0"
 
 # --- Attribution ---
 author:
