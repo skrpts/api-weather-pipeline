@@ -3,7 +3,7 @@ id: "6d2a1e48-cb8c-4612-864e-1647256e7c6a"
 name: "api-weather-pipeline"
 display_name: "API Weather Pipeline"
 description: "Demonstrates schema-driven API integration: reads an OpenWeatherMap API schema, composes requests, and generates a weather briefing"
-version: "1.0.4"
+version: "1.0.5"
 engine: ">=0.1.0"
 
 # --- Attribution ---
