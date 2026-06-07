@@ -5,7 +5,7 @@ title: Generate Briefing
 description: "Produces a concise weather briefing from the analysis"
 tags: [Production, Weather]
 connections:
-  - target: generate-briefing
+  - target: weather-briefing
     type: derived_from
 metadata:
   output_format: text
